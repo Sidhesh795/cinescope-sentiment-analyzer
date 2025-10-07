@@ -130,15 +130,16 @@ ls -lh data/IMDB_Dataset.csv
 ### 📁 Project Structure
 After completing all setup steps, your folder structure should look like this:
 cinescope-sentiment-analyzer/
-│
-├── README.md                           # This file
-├── LICENSE                             # MIT License
-├── .gitignore                          # Git ignore rules
-│
-└── movie_sentiment_app/                # Main application folder
-    │
-    ├── data/                           # Dataset folder
-    │   └── IMDB_Dataset.csv           # ⬇️ DOWNLOAD THIS FIRST!
+↓
+↓ README.md                           # This file
+↓    ↓ 
+↓     LICENSE                             # MIT License
+↓     .gitignore                          # Git ignore rules
+↓
+ movie_sentiment_app/                # Main application folder
+    ↓
+     data/                           # Dataset folder
+    ↓   ↓ IMDB_Dataset.csv           # ⬇️ DOWNLOAD THIS FIRST!
     │
     ├── src/                            # Source code
     │   ├── __init__.py
@@ -170,21 +171,6 @@ cinescope-sentiment-analyzer/
     ├── user_reviews.csv                # 📊 User review logs (auto-created)
     ├── learning_data.csv               # 📊 Learning data (auto-created)
     └── retrain_log.json                # 📊 Retrain history (auto-created)
-
-## Files Explanation
---------------------------------------------------------------------------------------
-|       File/Folder      |            Purpose             |      Created Bydata      |
-|------------------------------------------------------------------------------------|
-| IMDB_Dataset.csv       |   Training dataset             |   YOU (download)         |
-| src/preprocess.py      |   Text cleaning                |   Provided               |
-| src/train_model.py     |   Model training               |   Provided               |
-| app.py                 |   Flask web server             |   Provided               |
-| templates/index.html   |   Web interface                |   Provided               |
-| model.pkl              |   Trained model                |   Training script        |
-| vectorizer.pkl         |   TF-IDF vectorizer            |   Training script        |
-| venv/                  |   Isolated Python environment  |   You (python -m venv)   |
-| *.json, *.csv          |   Runtime data                 |   Application            |
---------------------------------------------------------------------------------------
 
 ## 🤖 Training the Model
 ⚠️ Make sure you've downloaded the dataset first!
