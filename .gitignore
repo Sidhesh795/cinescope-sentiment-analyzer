@@ -1,0 +1,41 @@
+# Virtual Environment
+venv/
+env/
+ENV/
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+
+# Model files (too large for GitHub)
+*.pkl
+model.pkl
+vectorizer.pkl
+
+# Data files (too large)
+data/
+*.csv
+
+# Logs and databases
+*.log
+*.sqlite
+*.db
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# OS
+.DS_Store
+Thumbs.db
+
+# User generated data
+movie_reviews_aggregate.json
+user_reviews.csv
+learning_data.csv
+retrain_log.json
