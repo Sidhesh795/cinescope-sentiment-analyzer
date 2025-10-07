@@ -7,8 +7,6 @@
 
 Ultra-modern movie review sentiment analysis powered by Machine Learning. Features a sleek dark UI inspired by Rotten Tomatoes and Letterboxd.
 
-![CineScope Demo](https://via.placeholder.com/800x400?text=Add+Your+Screenshot+Here)
-
 ## ✨ Features
 
 - 🤖 **89% Accuracy** - Trained on 50,000 IMDB reviews
