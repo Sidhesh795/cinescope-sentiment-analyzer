@@ -129,48 +129,8 @@ ls -lh data/IMDB_Dataset.csv
 
 ### 📁 Project Structure
 After completing all setup steps, your folder structure should look like this:
-cinescope-sentiment-analyzer/
-↓
-↓ README.md                           # This file
-↓    ↓ 
-↓     LICENSE                             # MIT License
-↓     .gitignore                          # Git ignore rules
-↓
- movie_sentiment_app/                # Main application folder
-    ↓
-     data/                           # Dataset folder
-    ↓   ↓ IMDB_Dataset.csv           # ⬇️ DOWNLOAD THIS FIRST!
-    │
-    ├── src/                            # Source code
-    │   ├── __init__.py
-    │   ├── preprocess.py              # Text preprocessing functions
-    │   ├── train_model.py             # Model training script
-    │   └── predict.py                 # CLI prediction tool (optional)
-    │
-    ├── templates/                      # HTML templates
-    │   └── index.html                 # Main web interface
-    │
-    ├── static/                         # Static files (auto-created)
-    │   ├── css/
-    │   └── js/
-    │
-    ├── venv/                           # Virtual environment (not in repo)
-    │   ├── Scripts/                   # Windows
-    │   ├── bin/                       # Mac/Linux
-    │   └── Lib/
-    │
-    ├── app.py                          # Flask application (main entry point)
-    ├── requirements.txt                # Python dependencies
-    ├── setup.py                        # Automated setup script
-    ├── render.yaml                     # Deployment configuration
-    │
-    ├── model.pkl                       # 🤖 Trained model (created after training)
-    ├── vectorizer.pkl                  # 🤖 TF-IDF vectorizer (created after training)
-    │ 
-    ├── movie_reviews_aggregate.json    # 📊 Movie statistics (auto-created)
-    ├── user_reviews.csv                # 📊 User review logs (auto-created)
-    ├── learning_data.csv               # 📊 Learning data (auto-created)
-    └── retrain_log.json                # 📊 Retrain history (auto-created)
+
+<img width="302" height="943" alt="image" src="https://github.com/user-attachments/assets/9a02f4c9-993f-44cf-abb7-25976282b551" />
 
 ## 🤖 Training the Model
 ⚠️ Make sure you've downloaded the dataset first!
