@@ -27,3 +27,24 @@ Ultra-modern movie review sentiment analysis powered by Machine Learning. Featur
 
 ### Installation
 ```bash
+# 1. Clone the repository
+git clone https://github.com/Sidhesh795/cinescope-sentiment-analyzer.git
+cd cinescope-sentiment-analyzer
+
+# 2. Navigate to project folder
+cd movie_sentiment_app
+
+# 3. Create virtual environment
+python -m venv venv
+
+# 4. Activate virtual environment
+# Windows:
+venv\Scripts\activate.bat
+# Mac/Linux:
+source venv/bin/activate
+
+# 5. Install dependencies
+pip install -r requirements.txt
+
+# 6. Download NLTK data
+python -c "import nltk; nltk.download('stopwords'); nltk.download('punkt')"
